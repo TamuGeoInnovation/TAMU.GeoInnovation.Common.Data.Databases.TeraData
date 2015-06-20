@@ -1,0 +1,3 @@
+C:\DevSource\Tamu\GeoInnovation\Common.Data.Databases.TeraData\Src\Main\obj\Release\Common.Data.Databases.TeraData.Dev.csprojResolveAssemblyReference.cache
+C:\DevSource\Tamu\GeoInnovation\Common.Data.Databases.TeraData\Src\Main\obj\Release\TAMU.GeoInnovation.Common.Data.Databases.TeraData.dll
+C:\DevSource\Tamu\GeoInnovation\Common.Data.Databases.TeraData\build\1.0.0\AnyCPU\release\TAMU.GeoInnovation.Common.Data.Databases.TeraData.dll

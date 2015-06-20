@@ -90,14 +90,6 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Utils">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Utils\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Utils.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Data.Databases">
-      <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Data\Databases\build\1.0.0\release\Tamu.GeoInnovation.Common.Data.Databases.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Teradata.Client.Provider, Version=13.11.0.1, Culture=neutral, PublicKeyToken=76b417ee2e04956c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\..\DevDependencies\NET Data Provider for Teradata\13.11.00\bin\Teradata.Client.Provider.dll</HintPath>
@@ -135,6 +127,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common.Core.Utils\Src\Main\Common.Core.Utils.Dev.csproj">
+      <Project>{0744A732-A7FE-4658-967D-C5A583EF08E4}</Project>
+      <Name>Common.Core.Utils.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Data.Databases\Src\Main\Common.Data.Databases.Dev.csproj">
+      <Project>{A7DF15F2-1210-4431-B223-A3A2810DC14A}</Project>
+      <Name>Common.Data.Databases.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!--  
