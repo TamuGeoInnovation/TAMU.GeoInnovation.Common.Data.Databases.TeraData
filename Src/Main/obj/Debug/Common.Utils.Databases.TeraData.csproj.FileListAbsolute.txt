@@ -1,5 +1,0 @@
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Utils\Databases.TeraData\build\v1.1\bin\AnyCPU\debug\USC.GISResearchLab.Common.Utils.Databases.TeraData.dll
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Utils\Databases.TeraData\build\v1.1\bin\AnyCPU\debug\USC.GISResearchLab.Common.Utils.Databases.TeraData.pdb
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Utils\Databases.TeraData\src\obj\Debug\Common.Utils.Databases.TeraData.csprojResolveAssemblyReference.cache
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Utils\Databases.TeraData\src\obj\Debug\USC.GISResearchLab.Common.Utils.Databases.TeraData.dll
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Utils\Databases.TeraData\src\obj\Debug\USC.GISResearchLab.Common.Utils.Databases.TeraData.pdb
