@@ -92,7 +92,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="Teradata.Client.Provider, Version=13.11.0.1, Culture=neutral, PublicKeyToken=76b417ee2e04956c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\..\DevDependencies\NET Data Provider for Teradata\13.11.00\bin\Teradata.Client.Provider.dll</HintPath>
+      <HintPath>..\..\libs\Teradata.Client.Provider.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
