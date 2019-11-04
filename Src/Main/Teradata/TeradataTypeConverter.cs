@@ -1,6 +1,6 @@
+using Microsoft.SqlServer.Types;
 using System;
 using System.Data;
-using Microsoft.SqlServer.Types;
 using USC.GISResearchLab.Common.Core.Databases;
 using USC.GISResearchLab.Common.Databases.TypeConverters;
 
@@ -45,7 +45,7 @@ namespace USC.GISResearchLab.Common.Databases.Teradata
         public static string TYPENAME_Variant = "Variant";
         public static string TYPENAME_Xml = "Xml";
 
-        
+
         #endregion
 
         public TeradataTypeConverter()
@@ -213,7 +213,7 @@ namespace USC.GISResearchLab.Common.Databases.Teradata
         {
             DatabaseSuperDataType ret;
 
-         
+
 
             SqlDbType type = (SqlDbType)dbType;
 

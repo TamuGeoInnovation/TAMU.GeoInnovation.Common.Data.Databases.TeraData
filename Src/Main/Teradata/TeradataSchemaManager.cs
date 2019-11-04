@@ -17,7 +17,7 @@ using USC.GISResearchLab.Common.Utils.Databases.TableDefinitions;
 
 namespace USC.GISResearchLab.Common.Databases.Teradata
 {
-   
+
 
     public class TeradataSchemaManager : AbstractSchemaManager
     {
@@ -136,8 +136,8 @@ namespace USC.GISResearchLab.Common.Databases.Teradata
             }
         }
 
-		public override TableColumn[] GetColumns(string table)
-		{
+        public override TableColumn[] GetColumns(string table)
+        {
             if (Connection.State == ConnectionState.Open)
             {
                 return GetColumns(table, false);
@@ -146,7 +146,7 @@ namespace USC.GISResearchLab.Common.Databases.Teradata
             {
                 return GetColumns(table, true);
             }
-		}
+        }
 
         public override TableColumn[] GetColumns(string databaseName, string table)
         {
@@ -680,7 +680,7 @@ namespace USC.GISResearchLab.Common.Databases.Teradata
         public string BuildCreateTableStatementFromDataTable(DataTable dataTable, string tableName)
         {
             dataTable.TableName = tableName;
-            TableDefinition tableDefinition  = TableDefinition.FromDataTable(dataTable, false);
+            TableDefinition tableDefinition = TableDefinition.FromDataTable(dataTable, false);
             return BuildCreateTableStatement(tableDefinition);
         }
 
@@ -998,7 +998,7 @@ namespace USC.GISResearchLab.Common.Databases.Teradata
 
                     if (maxLength == Int32.MaxValue)
                     {
-                        sql += " MAX " ;
+                        sql += " MAX ";
                     }
                     else
                     {
@@ -1278,8 +1278,8 @@ namespace USC.GISResearchLab.Common.Databases.Teradata
             return ret;
         }
 
-		public override string[] GetTables()
-		{
+        public override string[] GetTables()
+        {
             if (Connection.State == ConnectionState.Open)
             {
                 return GetTables(false);
@@ -1288,7 +1288,7 @@ namespace USC.GISResearchLab.Common.Databases.Teradata
             {
                 return GetTables(true);
             }
-		}
+        }
 
         public override string[] GetTables(string database)
         {
@@ -1549,7 +1549,7 @@ namespace USC.GISResearchLab.Common.Databases.Teradata
             return GetDatabasesAsDataTable(true, DatabaseNameListingOptions.OnlyAsDBOwner);
         }
 
-        public override  DataTable GetDatabasesAsDataTable(bool shouldOpenAndClose)
+        public override DataTable GetDatabasesAsDataTable(bool shouldOpenAndClose)
         {
             return GetDatabasesAsDataTable(shouldOpenAndClose, DatabaseNameListingOptions.OnlyAsDBOwner);
         }
@@ -1557,7 +1557,7 @@ namespace USC.GISResearchLab.Common.Databases.Teradata
         public override DataTable GetDatabasesAsDataTable(bool shouldOpenAndClose, DatabaseNameListingOptions opt)
         {
             DataTable ret = null;
-            
+
             try
             {
                 if (shouldOpenAndClose)

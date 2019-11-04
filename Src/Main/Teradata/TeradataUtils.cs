@@ -17,7 +17,7 @@ namespace USC.GISResearchLab.Common.Databases.Teradata
             try
             {
                 string database = conn.Database;
-                string sql = "SELECT 1 FROM sysobjects WHERE NAME = '" + storedProcedureName  + "' AND Type = 'p'";
+                string sql = "SELECT 1 FROM sysobjects WHERE NAME = '" + storedProcedureName + "' AND Type = 'p'";
 
                 object o = DoSelectScalar(conn, new SqlCommand(sql), shouldOpenAndClose);
                 if (o != null && o != DBNull.Value)
@@ -38,7 +38,7 @@ namespace USC.GISResearchLab.Common.Databases.Teradata
         {
             try
             {
-                
+
                 string sql = "";
                 sql += "CREATE PROCEDURE [" + storedProcedureName + "]";
                 if (parameters != null)
